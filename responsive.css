@@ -1,0 +1,66 @@
+@font-face {
+
+    font-family: Archivo;
+    src: url("Archivo-Regular.ttf");
+
+}
+
+
+body {
+
+    margin: 0;
+    background-color: #7eff5e;
+    font-family: Archivo;
+
+}
+
+.show {
+    top: 0vh;
+}
+
+.hide {
+    top: -10vh;
+}
+
+#more {
+
+    outline: none;
+    border: none;
+    background-color: yellow;
+    width: 20%;
+    height: 10vh;
+    font-size: 30px;
+
+}
+
+#more:active {
+
+    background-color: #434c13;
+    color: yellow;
+
+}
+
+#navbar {
+
+    position: relative;
+    float: right;
+    width: 80%;
+    height: 10vh;
+    background-color: yellow;
+    transition: .3s;
+
+}
+
+#navbar button {
+
+    outline: none;
+    border: none;
+    background-color: yellow;
+    width: 16%;
+    height: 10vh;
+    padding: 5px;
+    font-size: 11px;
+    margin: 0px 0px 0px 5px;
+    font-weight: bolder;
+
+}
